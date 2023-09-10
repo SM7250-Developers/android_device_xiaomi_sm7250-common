@@ -97,7 +97,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/common/,$(TARGET_COPY_OUT_VENDOR)/etc)
 ifneq ($(TARGET_USES_DOLBY),true)
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
+    $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    $(LOCAL_PATH)/configs/audio/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 else
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/dolby_audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
