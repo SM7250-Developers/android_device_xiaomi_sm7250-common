@@ -74,6 +74,9 @@ if [ -z "${ONLY_FIRMWARE}" ] && [ -z "${ONLY_TARGET}" ]; then
             vendor/lib64/mediadrm/libwvdrmengine.so)
                 "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
                 ;;
+            vendor/lib64/libdlbdsservice.so|vendor/lib/libstagefright_soft_ac4dec.so|vendor/lib/libstagefright_soft_ddpdec.so)
+                "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
+                ;;
         esac
     }
     # Initialize the helper for common device
