@@ -170,7 +170,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiDolby
 
 # Component overrides
 PRODUCT_COPY_FILES += \
