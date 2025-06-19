@@ -70,7 +70,7 @@ SOONG_CONFIG_XIAOMI_LITO_FINGERPRINT := FOD
 SOONG_CONFIG_XIAOMI_LITO_FINGERPRINT_FOD ?= false
 ifeq ($(TARGET_HAS_UDFPS),true)
 SOONG_CONFIG_XIAOMI_LITO_FINGERPRINT_FOD := true
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_extension.xiaomi)
 endif
 
 # FM
