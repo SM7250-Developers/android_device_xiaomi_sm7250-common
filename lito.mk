@@ -167,10 +167,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
@@ -579,6 +575,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
     vendor.qti.hardware.display.config-V5-ndk
+
+# XiaomiParts
+include packages/apps/XiaomiParts/device.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm7250-common/sm7250-common-vendor.mk)
