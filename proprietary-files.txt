@@ -1,4 +1,7 @@
+
 # All unpinned blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys
+
+
 # Pinned blobs from nio: S1RN32.19
 
 # ADSP
@@ -475,7 +478,7 @@ system_ext/lib64/libmmparser_lite.so
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
 
-# Media (Codec2) - from LA.UM.9.12.r1-14000.04-SMxx50.QSSI12.0
+# Media (Codec2) - from LA.UM.912.r1-14000.04-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|cd2c5d4f2050f7d72bb1116899da5abb49eb1864
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc|11209316ba8aae64b689217bc13b0804f6620678
 vendor/etc/media_codecs_c2.xml|5c2ab87923210f36952b41c043b7f05b0674d7e5
@@ -626,9 +629,6 @@ vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/deviceInfoServiceModule.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libhydra_common.so
@@ -658,7 +658,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/qtibus.so
 vendor/lib64/qtimutex.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
@@ -718,8 +717,6 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Soter service (Tencent)
 -vendor/app/SoterService/SoterService.apk
-
-# Thermal
 vendor/bin/mi_thermald
 vendor/etc/init/init.mi_thermald.rc
 
