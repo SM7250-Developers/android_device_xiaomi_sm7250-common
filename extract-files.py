@@ -28,7 +28,10 @@ blob_fixups: blob_fixups_user_type = {
 
 namespace_imports = [
     'hardware/xiaomi',
-    'vendor/xiaomi/sm7250-common',
+    'hardware/qcom/sm7250/display',
+    'hardware/qcom-caf/wlan',
+    'vendor/qcom/opensource/dataservices',
+    'vendor/qcom/opensource/display',
 ]
 
 module = ExtractUtilsModule(

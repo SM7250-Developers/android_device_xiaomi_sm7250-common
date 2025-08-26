@@ -577,7 +577,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V5-ndk
 
 # XiaomiParts
-include packages/apps/XiaomiParts/device.mk
+-include packages/apps/XiaomiParts/device.mk
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm7250-common/sm7250-common-vendor.mk)

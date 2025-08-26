@@ -1,6 +1,4 @@
-
 # All unpinned blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys
-
 
 # Pinned blobs from nio: S1RN32.19
 
@@ -176,7 +174,7 @@ vendor/lib64/vendor.display.color@1.5.so|2816ad7ee01408a8a91f14307a8b29e1c370ab4
 vendor/lib64/vendor.display.postproc@1.0.so|b3c3811c5f07773ef156701c31c448b85ad60c64
 
 # DPM
-framework/tcmclient.jar
+system_ext/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -184,7 +182,6 @@ system_ext/etc/permissions/com.qti.dpmframework.xml
 system_ext/etc/permissions/dpmapi.xml
 system_ext/framework/com.qti.dpmframework.jar
 system_ext/framework/dpmapi.jar
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so
 system_ext/lib64/libdiag_system.so
 system_ext/lib64/libdpmctmgr.so
 system_ext/lib64/libdpmfdmgr.so
@@ -252,14 +249,11 @@ vendor/etc/init/feature_enabler_client.rc
 # FM
 system_ext/lib/fm_helium.so
 system_ext/lib/libfm-hci.so
-system_ext/lib/vendor.qti.hardware.fm@1.0.so
 system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/bin/fm_qsoc_patches
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init.qti.fm.sh
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
@@ -370,6 +364,7 @@ vendor/lib64/vendor.qti.gnss@2.1.so
 vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@4.0-service.so
 vendor/lib64/vendor.qti.gnss@4.0.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # GNSS configs
 vendor/etc/apdr.conf
@@ -386,7 +381,6 @@ system_ext/lib64/lib-imsvtextutils.so
 system_ext/lib64/lib-imsvtutils.so
 system_ext/lib64/libimscamera_jni.so
 system_ext/lib64/libimsmedia_jni.so
-system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 -system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
@@ -459,9 +453,6 @@ vendor/lib64/libqtikeymaster4.so
 # Listen
 vendor/lib/hw/sound_trigger.primary.lito.so
 vendor/lib/libadpcmdec.so
-vendor/lib/libcapiv2svacnn.so
-vendor/lib/libcapiv2svarnn.so
-vendor/lib/libcapiv2vop.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -471,9 +462,7 @@ vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media
-system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 vendor/lib/libmmosal.so
 vendor/lib64/libmmosal.so
@@ -486,16 +475,16 @@ vendor/etc/media_codecs_performance_c2.xml|f6597764a06e7d86ad28b69320b371a6cce50
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy|3c396a276dfb589501105e7158459fa2d644607e
 vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy|a134d3d5d74294ca8164056b42389b1c7dbb2b65
 -vendor/etc/vintf/manifest/c2_manifest_vendor.xml|0e532bf1c7d6a0ee2e7e03a9cc3283a5bffc7f8e
-vendor/lib/libcodec2_hidl@1.0.so|78f2b61ad3b818729f93fed57200ba64292da0fc
-vendor/lib/libcodec2_vndk.so|a8ba77ae6afcd6492113149f9756712c517db09a
+# vendor/lib/libcodec2_hidl@1.0.so|78f2b61ad3b818729f93fed57200ba64292da0fc
+# vendor/lib/libcodec2_vndk.so|a8ba77ae6afcd6492113149f9756712c517db09a
 vendor/lib/libqcodec2_base.so|5bec0dec355c90d2a9739105b6d9810291ab9995
 vendor/lib/libqcodec2_basecodec.so|a517b6a89bf54d58c46758621c6dce9056cb92f7
 vendor/lib/libqcodec2_core.so|b92991b36af312411eb4779fea1a5c22550c1d56
 vendor/lib/libqcodec2_platform.so|77f33c008a7b7c0b8f2b4c992b26c2da8e69fe24
 vendor/lib/libqcodec2_utils.so|867b95c219f59126bbf19bb63fba43f9f7a30462
 vendor/lib/libqcodec2_v4l2codec.so|ffd18f2c4cfad643a3409165281cf1115488ad0a
-vendor/lib64/libcodec2_hidl@1.0.so|28d291883503fd280cd2016967753029a4e9a4fd
-vendor/lib64/libcodec2_vndk.so|b33e53a931c89c6d6c629969888836202c6526d0
+# vendor/lib64/libcodec2_hidl@1.0.so|28d291883503fd280cd2016967753029a4e9a4fd
+# vendor/lib64/libcodec2_vndk.so|b33e53a931c89c6d6c629969888836202c6526d0
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
@@ -526,7 +515,6 @@ vendor/etc/libnfc-nxp.conf
 vendor/etc/libnfc-nxp_RF.conf
 vendor/etc/libnfc-nxp-pnscr.conf
 vendor/lib/libsn100u_fw.so
-vendor/lib64/nfc_nci.nqx.default.hw.so
 
 # NVRAM
 vendor/bin/nv_mac
@@ -560,21 +548,6 @@ vendor/bin/qmipriod
 vendor/etc/init/qmipriod.rc
 vendor/etc/sec_config
 vendor/lib/libdiag.so
-vendor/lib/libdsi_netctrl.so
-vendor/lib/libdsutils.so
-vendor/lib/libidl.so
-vendor/lib/libqcci_legacy.so
-vendor/lib/libqcmaputils.so
-vendor/lib/libqdi.so
-vendor/lib/libqdp.so
-vendor/lib/libqmi.so
-vendor/lib/libqmi_cci.so
-vendor/lib/libqmi_client_helper.so
-vendor/lib/libqmi_client_qmux.so
-vendor/lib/libqmi_common_so.so
-vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_encdec.so
-vendor/lib/libqmiservices.so
 vendor/lib64/libdiag.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libdsutils.so
@@ -591,6 +564,7 @@ vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
+vendor/lib64/libqmi_legacy.so
 
 # RIL
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
