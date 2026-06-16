@@ -18,7 +18,6 @@ vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
-vendor/lib/libssrec.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
