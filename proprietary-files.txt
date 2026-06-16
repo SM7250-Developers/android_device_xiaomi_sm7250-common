@@ -191,7 +191,7 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
 vendor/bin/dpmQmiMgr
 vendor/etc/init/dpmQmiMgr.rc
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libdpmqmihal.so
 
 # DRM (QSEECom)
@@ -258,9 +258,9 @@ vendor/bin/fm_qsoc_patches
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init.qti.fm.sh
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -431,7 +431,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
-vendor/lib64/vendor.qti.imsrtpservice@3.0.so
+vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
@@ -473,8 +473,8 @@ system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+vendor/lib/libmmosal.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libmmosal.so;MODULE_SUFFIX=_vendor
 
 # Media (Codec2) - from LA.UM.9.12.r1-14000.04-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|cd2c5d4f2050f7d72bb1116899da5abb49eb1864
