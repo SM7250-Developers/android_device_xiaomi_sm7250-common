@@ -1,5 +1,6 @@
 # All unpinned blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.4.0.SJIEUXM release-keys
 # Pinned blobs from nio: S1RN32.19
+# from munch miui_MUNCHGlobal_V14.0.4.0.TLMMIXM_d6c833c659_13.0
 
 # ADSP
 vendor/bin/adsprpcd
@@ -173,7 +174,7 @@ vendor/lib64/vendor.display.color@1.5.so|2816ad7ee01408a8a91f14307a8b29e1c370ab4
 vendor/lib64/vendor.display.postproc@1.0.so|b3c3811c5f07773ef156701c31c448b85ad60c64
 
 # DPM
-framework/tcmclient.jar
+system/framework/tcmclient.jar
 system_ext/bin/dpmd
 system_ext/etc/dpm/dpm.conf
 system_ext/etc/init/dpmd.rc
@@ -235,12 +236,12 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# Embedded Secure Element power manager - from munch miui_MUNCHGlobal_V14.0.4.0.TLMMIXM_d6c833c659_13.0
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|35676a23f81fe20a5bda8e2bf0e53287089b779b0b7b8ff230babe47ef19127e
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|cc0c23bf86c480eff39563e7c4733fe1e0848d68f284e6975947823be873bb74
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|44a4f0fb537ab28283cdd8e6e5c0ac66ca19572bf13ae97b7cbbb7b1e9400063
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|773dcebcdceaaa26f9eff2fcd5189fe8177cf5bb507f547982a2a00ceeae5c7d
-vendor/lib64/vendor.qti.esepowermanager@1.1.so|b1332df9a5639312b01ed7ce2a970a4e7f24edcad9828b72e19ab0bf414b8e1e
+# Embedded Secure Element power manager
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0427ec8683d9737faa00d3fcb9e19b660a26c298
+vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|5560bfccdc7ea51ed6f3ae032573122ef113c619
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|31679be46877558494c2545ba803424b3ac0eac9
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|2cbafa6dafde9fd8d039eaf08ccff56d347b455f
 
 # Feature enabler client
 vendor/bin/feature_enabler_client
@@ -550,8 +551,8 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
 
 # QMI
-etc/permissions/privapp-permissions-qti.xml
-etc/sysconfig/qti_whitelist.xml
+system/etc/permissions/privapp-permissions-qti.xml
+system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/irsc_util
 vendor/bin/qmipriod
 vendor/etc/init/qmipriod.rc
@@ -684,13 +685,13 @@ vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
 # Secure element
-vendor/bin/hw/vendor.qti.secure_element@1.2-service
-vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
-vendor/lib64/android.hardware.secure_element@1.0-impl.so
-vendor/lib64/jcos_nq_client.so
-vendor/lib64/libwvkeybox.so
-vendor/lib64/ls_nq_client.so
-vendor/lib64/se_nq_extn_client.so
+vendor/bin/hw/vendor.qti.secure_element@1.2-service|72520c6b891d7f7578ba86163879584b4de0da6c
+vendor/etc/init/vendor.qti.secure_element@1.2-service.rc|cb8e44a67709a5d9c2f0544058d79eb9f6faad7b
+vendor/lib64/android.hardware.secure_element@1.0-impl.so|3226de439fb512f738f1344c685c68180edf427e
+vendor/lib64/jcos_nq_client.so|f1cca195cde840de3e9b0ca7fa0f2f6d0457c550
+vendor/lib64/libwvkeybox.so|31d4f6e7054a0b432d18429010e1bf73b5e02e2d
+vendor/lib64/ls_nq_client.so|03d2d6e523e4c5c4be5ce428ebb3d4be457e23df
+vendor/lib64/se_nq_extn_client.so|0296c64fb075f3eef3da76c401348d8126ace60e
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libscveCommon.so
