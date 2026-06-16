@@ -1,5 +1,8 @@
 # Audio
 vendor.audio.feature.compr_voip.enable=false
 
+# Display
+ro.surface_flinger.supports_background_blur=1
+
 # Media
 vendor.media.omx=0
