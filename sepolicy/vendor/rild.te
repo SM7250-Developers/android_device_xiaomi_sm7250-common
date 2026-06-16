@@ -7,5 +7,6 @@ set_prop(rild, vendor_deviceid_prop)
 
 # Serial number
 set_prop(rild, vendor_sno_prop)
+set_prop(rild, vendor_ssr_prop)
 
 allow rild default_prop:file { getattr map };
