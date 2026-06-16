@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.2.0.SJIEUXM release-keys
+# All unpinned blobs below are extracted from monet 12 SKQ1.211006.001 V13.0.4.0.SJIEUXM release-keys
 # Pinned blobs from nio: S1RN32.19
 
 # ADSP
