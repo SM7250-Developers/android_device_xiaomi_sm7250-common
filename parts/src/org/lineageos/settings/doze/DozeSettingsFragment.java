@@ -30,14 +30,14 @@ import android.widget.CompoundButton;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.widget.MainSwitchPreference;
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 
 import org.lineageos.settings.R;
 
-public class DozeSettingsFragment extends PreferenceFragmentCompat implements
+public class DozeSettingsFragment extends SettingsBasePreferenceFragment implements
         Preference.OnPreferenceChangeListener, CompoundButton.OnCheckedChangeListener {
 
     private MainSwitchPreference mSwitchBar;
