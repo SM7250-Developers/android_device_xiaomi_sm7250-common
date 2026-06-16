@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.ipsec_tunnel_migration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnel_migration.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
 
+$(call soong_config_set,QTI_GPT_UTILS,USE_BSG_FRAMEWORK,false)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
